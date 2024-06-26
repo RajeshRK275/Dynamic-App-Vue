@@ -1,0 +1,19 @@
+zoho connection as json
+
+{
+     "connectionLinkName" "dynamicapp",
+     "connectionName": Dynamic App,
+     "serviceName": "zoho_crm",
+     "userAccess":  false,
+     "isUserDefinedService":  false,
+     "sharedBy":  "854046372",
+}
+
+zoho connection as deluge
+
+response = invokeUrl [
+    url : <url>
+    type : GET/POST/PUT/DELETE
+    parameters : <paramMap/string>
+    connection : "dynamicapp"
+];

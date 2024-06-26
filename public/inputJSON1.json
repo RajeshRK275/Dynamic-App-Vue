@@ -1,0 +1,226 @@
+{
+  "menus": {
+    "menu1": {
+      "menuName": "Main Menu",
+      "forms": {
+        "form1": {
+          "formName": "User Information Form",
+          "fields": [
+            {
+              "type": "text",
+              "label": "Text Input",
+              "name": "textInput"
+            },
+            {
+              "type": "text",
+              "label": "Text Input2",
+              "name": "textInput2"
+            },
+            {
+              "type": "text",
+              "label": "Text Input3",
+              "name": "textInput3"
+            },
+            {
+              "type": "number",
+              "label": "Number Input",
+              "name": "numberInput"
+            },
+            {
+              "type": "email",
+              "label": "Email Input",
+              "name": "emailInput"
+            },
+            {
+              "type": "password",
+              "label": "Password Input",
+              "name": "passwordInput"
+            },
+            {
+              "type": "ConfirmPassword",
+              "label": "Confirm Password",
+              "name": "passwordInput"
+            },
+            {
+              "type": "select",
+              "label": "Select Input",
+              "name": "selectInput",
+              "options": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+              ]
+            },
+            {
+              "type": "radio",
+              "label": "Radio Input",
+              "name": "radioInput",
+              "options": [
+                "Option A",
+                "Option B"
+              ]
+            },
+            {
+              "type": "checkbox",
+              "label": "Checkbox Input",
+              "name": "checkboxInput",
+              "options": [
+                "Option 1",
+                "Option 2"
+              ]
+            },
+            {
+              "type": "date",
+              "label": "Date Input",
+              "name": "dateInput"
+            },
+            {
+              "type": "textarea",
+              "label": "Description",
+              "name": "description"
+            }
+          ]
+        },
+        "form2": {
+          "formName": "Survey Form",
+          "fields": [
+            {
+              "type": "textarea",
+              "label": "Textarea Input",
+              "name": "textareaInput"
+            },
+            {
+              "type": "range",
+              "label": "Range Input",
+              "name": "rangeInput",
+              "min": 0,
+              "max": 100
+            }
+          ]
+        }
+      },
+      "reports": {
+        "report1": {
+          "reportName": "User Data Report",
+          "columns": [
+            {
+              "title": "Id No",
+              "dataIndex": "key",
+              "key": "key"
+            },
+            {
+              "title": "Name",
+              "dataIndex": "name",
+              "key": "name"
+            },
+            {
+              "title": "Age",
+              "dataIndex": "age",
+              "key": "age"
+            },
+            {
+              "title": "Address",
+              "dataIndex": "address",
+              "key": "address"
+            },
+            {
+              "title": "Tags",
+              "key": "tags",
+              "dataIndex": "tags"
+            }
+          ],
+          "rows": [
+            {
+              "key": "1",
+              "name": "John Brown",
+              "age": 32,
+              "address": "New York No. 1 Lake Park",
+              "tags": ["nice", "developer"]
+            },
+            {
+              "key": "2",
+              "name": "Jim Green",
+              "age": 42,
+              "address": "London No. 1 Lake Park",
+              "tags": ["loser"]
+            },
+            {
+              "key": "3",
+              "name": "Joe Black",
+              "age": 32,
+              "address": "Sidney No. 1 Lake Park",
+              "tags": ["cool", "teacher"]
+            }
+          ]
+        }
+      }
+    },
+    "menu2": {
+      "menuName": "Secondary Menu",
+      "forms": {
+        "form3": {
+          "formName": "Additional Information Form",
+          "fields": [
+            {
+              "type": "text",
+              "label": "Another Text Input",
+              "name": "anotherTextInput"
+            },
+            {
+              "type": "number",
+              "label": "Another Number Input",
+              "name": "anotherNumberInput"
+            }
+          ]
+        }
+      },
+      "reports": {
+        "report2": {
+          "reportName": "Additional Data Report",
+          "columns": [
+            {
+              "title": "Id",
+              "dataIndex": "key",
+              "key": "key"
+            },
+            {
+              "title": "Name",
+              "dataIndex": "name",
+              "key": "name"
+            },
+            {
+              "title": "Total Purchased",
+              "dataIndex": "totalPurchased",
+              "key": "totalPurchased"
+            },
+            {
+              "title": "Last Visited",
+              "dataIndex": "lastVisited",
+              "key": "lastVisited"
+            }
+          ],
+          "rows": [
+            {
+              "key": "1",
+              "name": "John Brown",
+              "totalPurchased": 32000,
+              "lastVisited": "2024-05-10"
+            },
+            {
+              "key": "2",
+              "name": "Jim Green",
+              "totalPurchased": 45000,
+              "lastVisited": "2024-04-20"
+            },
+            {
+              "key": "3",
+              "name": "Joe Black",
+              "totalPurchased": 70000,
+              "lastVisited": "2024-01-15"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
